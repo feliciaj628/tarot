@@ -1,0 +1,160 @@
+<html>
+    <header class="banner">
+    </header>
+    <head>
+        <script src="jquery.js"></script> 
+        <script> 
+            $(function(){
+                $("#review1").load("reviews.html"); 
+             });
+        </script>
+    </head>
+    <style>
+        .banner {
+            background-image: url("banner.png");
+            background-size: cover;
+            background-position: center;
+            padding: 200px;
+            margin: 20px;
+        }
+        .title {
+            background-color: rgb(223, 217, 217);
+            color: #4e4a4a;
+            border: 3px solid #c0bebe;
+            padding: 10px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            font-weight: inherit
+        }
+        .bigbox {
+            background-color:rgb(255, 255, 255);
+            color: black;
+            border: 3px solid #c0bebe;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .smallBox {
+            background-color:rgb(255, 255, 255);
+            background-image: url("thumbnail1.png");
+            background-size: cover;
+            background-position: top center;
+            width: 266.8px;
+            height: 220px;
+            color: black;
+            border: 3px solid #c0bebe;
+            padding: 0px;
+            margin: 20px;
+            position: relative;
+        }
+        .link {
+            background-color: white;
+            background-size: 8vh;
+            background-attachment: fixed;
+            opacity: 0;
+            height: 25px;
+            width: 266.8px;
+            position: absolute;
+            bottom: 0;
+            font-weight: 80;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .pictureContainer:hover > .link { opacity: 0.9; }
+
+        .pictureContainer:hover {
+             outline: #9055a1 solid 4px;
+             opacity: 0.8;
+             background-image: url("bitch.png")
+            }
+        .font {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            font-weight: inherit  
+        }
+
+        .bottomBar {
+            opacity: 0.5;
+        }
+        .reviewBox {
+            background-color:rgb(255, 255, 255);
+            color: black;
+            border: 3px solid #c0bebe;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            justify-content: left;
+            align-items: left;
+        }
+    </style>
+
+    <body style="border: 3px solid #c0bebe;">
+        <div class="title">
+        <center>Current Listings</center>
+        </div>
+        <div class="bigBox">
+
+        <!--listings-->
+        <a href="https://www.etsy.com/listing/1289941298/how-do-they-really-feel-psychic-love?click_key=2777ad8504a8cc01b6ca373cb40883bb87d121ec%3A1289941298&click_sum=75bf3c36&ref=shop_home_active_1&frs=1&crt=1">
+        <div class="smallBox pictureContainer">
+            <div class="link"> <u>How Do They Really Feel?</u></div>
+        </div>
+        </a>
+        <!--listing2-->
+        <a href="https://www.etsy.com/listing/1287721504/same-day-psychic-tarot-reading-1?click_key=5cce4db054fd5b04ead64696155284446b4d9588%3A1287721504&click_sum=c3096eed&ref=shop_home_active_2&frs=1&crt=1">
+        <div class= "smallBox pictureContainer" style="background-image: url('thumbnail2.png');">
+            <div class="link"> <u>Same Day One Question</u></div>
+        </div>
+        </a>
+        <!--listing3-->
+        <a href="https://www.etsy.com/listing/1385179211/no-contact-psychic-tarot-reading-do-they?click_key=9448c0d769768b6158df786cff321b061efbd080%3A1385179211&click_sum=c9042739&ref=shop_home_active_3&frs=1&crt=1">
+        <div class="smallBox pictureContainer" style="background-image: url('thumbnail3.png');">
+            <div class="link"><u> No Contact Reading</u></div>
+        </div> 
+        </a>
+        <!--listing3-->
+        <a href="https://www.etsy.com/listing/1349644761/who-is-thinking-about-you-and-why?click_key=87c9d8d6d28a1967b3baa91eb54ddeda0fbfc833%3A1349644761&click_sum=805c9e9c&ref=shop_home_active_4&frs=1&crt=1">
+        <div class="smallBox pictureContainer" style="background-image: url('thumbnail4.png');">
+            <div class="link"><u>Who is Thinking About You?</u></div>
+        </div> 
+        </a>
+        <!--listing4-->
+        <a href="https://www.etsy.com/listing/1393095275/virtual-tip-jar-thank-you?click_key=00ed88087b7bdee2f23a459ac81422df2596a3f0%3A1393095275&click_sum=2db3e16c&ref=shop_home_active_5&frs=1">
+        <div class="smallBox pictureContainer" style="background-image: url('thumbnail5.png');">
+            <div class="link"><u>Digital Tip Jar</u></div>
+        </div> 
+        </a>
+
+        </div>
+        <div class="title">
+        <center>Reviews</center> </div>
+        
+        <div class="reviewBox">
+        </div>
+    
+
+     <div class="title">
+     <center>Contact Info:</center>
+     </div>
+     <div class="bigBox font" style="font-size: 23px; justify-content: left;">
+        <ul>
+            <li>Etsy: <a href="https://www.etsy.com/shop/crystalwishtarot?ref=seller-platform-mcnav">https://www.etsy.com/shop/crystalwishtarot?ref=seller-platform-mcnav</a></li>
+            <li>Email: <a href="mailto:crystalwishtarot@gmail.com">crystalwishtarot@gmail.com</a></li>
+            <li>Youtube: <a href="https://www.youtube.com/@crystalwishtarot">https://www.youtube.com/@crystalwishtarot</a></li>
+        </ul>
+     </div>
+    </body>
+</html>
