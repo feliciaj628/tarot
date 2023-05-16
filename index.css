@@ -7,7 +7,7 @@
     padding: 10px;
     height: 110px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    z-index: 1000;
+    z-index: 30;
 }
 #navtitle {
     font-family: 'Homemade Apple', cursive;
