@@ -104,7 +104,8 @@
 .font {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 32px;
-    font-weight: inherit  
+    font-weight: inherit;
+    z-index: 10;  
 }
 
 .bottomBar {
