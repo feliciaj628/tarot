@@ -13,6 +13,7 @@
     font-family: 'Homemade Apple', cursive;
     align-items: center;
     text-align: center;
+    z-index: 10;
 
 }
 .banner {
