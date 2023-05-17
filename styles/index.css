@@ -112,7 +112,7 @@
 }
 .smallBox {
     background-color:rgb(255, 255, 255);
-    background-image: url("/thumbnails/thumbnail1.png");
+    background-image: url("../thumbnails/thumbnail1.png");
     background-size: cover;
     background-position: top center;
     width: 350px;
