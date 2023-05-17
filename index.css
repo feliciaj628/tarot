@@ -4,23 +4,60 @@
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    padding: 10px;
-    height: 110px;
+    padding: 0;
+    height: 120px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     z-index: 30;
+    display: flex; /* Added for flexbox */
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
 }
 #navtitle {
     font-family: 'Homemade Apple', cursive;
     align-items: center;
     text-align: center;
 }
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0;/* Adjust the margin-right value to decrease the spacing */
+}
+
+
+.navbar ul {
+    display: flex; /* Added for flexbox */
+    justify-content: space-around; /* Added for equal spacing between list items */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 10px 2px; /* Add margin 0 to remove default spacing */
+}
+
+.navbar ul li a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+    padding: 10px 40px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
 .banner {
     /* background-image: url("banner.png");*/
     background-position: center;
     padding-left: 110px;
     padding-right: 110px;
-    padding-bottom: 100px;
-    padding-top: 130px;
+    padding-bottom: 110px;
+    padding-top: 110px;
     font-size: 65px;
     font-family: 'Homemade Apple', cursive;
     display: flex;
@@ -38,18 +75,21 @@
     margin-bottom: 0;
     margin-top: 0;
 }
+
 #list {
     margin-left: 110px;
     margin-top: 0px;
+    font-family: 'EB Garamond', serif;
 }
+
 .title {
     background-color: rgb(223, 217, 217);
     color: #4e4a4a;
     border: 3px solid #c0bebe;
     padding: 10px;
     margin-top: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    font-family: 'EB Garamond', serif;
     font-weight: inherit
 }
 .bigbox {
@@ -67,7 +107,7 @@
 }
 .smallBox {
     background-color:rgb(255, 255, 255);
-    background-image: url("thumbnail1.png");
+    background-image: url("/thumbnails/thumbnail1.png");
     background-size: cover;
     background-position: top center;
     width: 350px;
@@ -83,16 +123,16 @@
     background-size: 8vh;
     background-attachment: fixed;
     opacity: 0;
-    height: 40px;
+    height: 35px;
     width: 350px;
     position: absolute;
     bottom: 0;
     font-weight: 80;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
     justify-content: center;
     display: flex;
     align-items: center;
+    font-family: 'EB Garamond', serif;
 }
 
 .pictureContainer:hover > .link { opacity: 0.9; }
@@ -102,9 +142,10 @@
      opacity: 0.8;
     }
 .font {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 32px;
+    font-size: 29px;
     font-weight: inherit;
+    color: rgb(38, 38, 38);
+    line-height: 1.9;
 }
 
 .bottomBar {
@@ -144,7 +185,7 @@
     white-space: nowrap;
   }
     .star-border::before {
-    top: 35px;
+    top: 20px;
     }
     .star-border::after {
     bottom: 10px;
