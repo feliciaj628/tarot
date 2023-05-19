@@ -1,0 +1,7 @@
+.listings {
+padding-left: 115px;
+margin-bottom: 0px;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
