@@ -28,8 +28,8 @@
 
 .navbar ul li {
     display: inline-block;/* Adjust the margin-right value to decrease the spacing */
-    margin-right: 55px;
-    margin-left: 55px;
+    margin-right: 84px;
+    margin-left: 84px;
 }
 
 .logo {
@@ -119,15 +119,14 @@
 
 .list {
     margin-left: 390px;
-    margin-top: 220px;
+    margin-top: 210px;
     font-family: 'EB Garamond', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: rgb(74, 74, 74);
-    line-height: 2.5;
-    background-image: url('../images/cloud.png');
+    color: rgb(0, 0, 0);
+    line-height: 2.7;
 }
 
 .list li {
@@ -265,13 +264,17 @@
     display: flex;
     z-index: 5;
     position: absolute;
-    margin-left: 428px;
-    margin-top: 48px;
+    margin-left: 440px;
+    margin-top: 40px;
   }
   
   .shadowed-image {
-    filter: drop-shadow(0 0 10px rgba(14, 11, 20, 0.9));
-    height: 330px;
-    width: 985px;
+    filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.85));
+    height: 350px;
+    width: 998px;
   }
   
+  .star {
+    color: rgb(251, 242, 174);
+    -webkit-text-stroke: 2px black;
+  }
