@@ -128,8 +128,8 @@
 }
 
 .list {
-    margin-left: 390px;
-    margin-top: 210px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-family: 'EB Garamond', serif;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@
     margin-top: 0;
     font-size: 30px;
     font-family: 'EB Garamond', serif;
-    font-weight: inherit
+    font-weight: inherit;
 }
 .bigbox {
     background-color:rgb(255, 255, 255);
@@ -274,14 +274,14 @@
     display: flex;
     z-index: 5;
     position: absolute;
-    margin-left: 440px;
+    margin-left: 140px;
     margin-top: 40px;
   }
   
   .shadowed-image {
     filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.85));
-    height: 350px;
-    width: 998px;
+    height: 100px;
+    width: 300px;
   }
   
   .star {
