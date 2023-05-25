@@ -80,11 +80,11 @@
 .banner {
     /* background-image: url("banner.png");*/
     background-position: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 40px;
     font-family: 'Homemade Apple', cursive;
     display: flex;
     justify-content: center;
