@@ -78,22 +78,7 @@
 }
 
 
-.banner {
-    /* background-image: url("banner.png");*/
-    background-position: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 15px;
-    font-family: 'Homemade Apple', cursive;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    margin-bottom: 0px;
-    border-bottom: 0px;
-    background-color:rgb(216, 214, 232);
-}
+
 
 .banner.hidden {
     display: none; /* Hide the banner when it has the hidden class */
