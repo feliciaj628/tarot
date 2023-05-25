@@ -1,7 +1,88 @@
 .listings {
-padding-left: 115px;
-margin-bottom: 0px;
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
+    padding: 120px;
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-right: 180px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* space-between or space-evenly could also be options */
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.shopBox {
+    background-color:rgb(255, 255, 255);
+    background-image: url("../thumbnails/thumbnail1.png");
+    background-size: cover;
+    background-position: top center;
+    width: 300px;
+    height: 240px;
+    color: black;
+    border: 3px solid #c0bebe;
+    padding: 0px;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+
+.shoptitle {
+    background-color: rgb(223, 217, 217);
+    color: #4e4a4a;
+    border: 3px solid #c0bebe;
+    margin-top: 120px;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    font-weight: inherit;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    }
+
+.shoplink {
+    background-color: white;
+    background-size: 8vh;
+    background-attachment: fixed;
+    opacity: 0;
+    height: 29px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    font-weight: 80;
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    border-radius: 20px;
+}
+
+.pictureContainer:hover > .shoplink { opacity: 0.9; }
+
+.pictureContainer:hover {
+     outline: #9055a1 solid 4px;
+     opacity: 0.8;
+ }
+
+.filter {
+    background-color: rgb(243, 243, 243);
+    padding: 3px 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    border: 3px solid rgb(195, 195, 195);
+    width: 130px;
+}
+
+#sameday {
+    opacity: 1;
 }
