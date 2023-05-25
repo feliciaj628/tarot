@@ -34,8 +34,7 @@
 
 .navbar ul li {
     display: inline-block;/* Adjust the margin-right value to decrease the spacing */
-    margin-right: 84px;
-    margin-left: 84px;
+    margin-left: 10px;
 }
 
 .logo {
@@ -133,8 +132,6 @@
     font-family: 'EB Garamond', serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     color: rgb(0, 0, 0);
     line-height: 2.7;
 }
