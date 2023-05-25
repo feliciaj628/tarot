@@ -55,7 +55,7 @@
     align-items: center; /* Added for equal spacing between list items */
     list-style-type: none; /* Removes bullet points */
     padding: 0; /* Removes padding */
-    margin: 10px 0px; /* Add margin 0 to remove default spacing */
+    margin: 2px 0px; /* Add margin 0 to remove default spacing */
 }
 
 .navbar ul li a {
@@ -65,7 +65,7 @@
     transition: transform 0.2s ease;
     padding: 8px 30px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    font-size: 17px;
+    font-size: 10px;
 }
 
 .navbar ul li a:hover {
@@ -134,6 +134,7 @@
     flex-direction: column;
     color: rgb(0, 0, 0);
     line-height: 1;
+    text-align: center;
 }
 
 .list li {
