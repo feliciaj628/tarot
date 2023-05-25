@@ -7,11 +7,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/styles/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="only screen and (max-width: 767px)" href="/styles/mobile.css">
+        <link rel="stylesheet" media="only screen and (min-width: 768px)" href="/styles/index.css">
     </head>
-    <body style="background-color: rgb(216, 214, 232); margin: 0;border-color: 20px;">
-        <div class="navbar"><p id="navtitle">crystalwishtarot</p> 
+    <body style="margin: 0;border-color: 20px;">
+        <div class="navbar hidden"><p id="navtitle">crystalwishtarot</p> 
             <ul class="navtitles">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
@@ -47,7 +48,7 @@
 
         <!--listings-->
         <a href="https://www.etsy.com/listing/1289941298/how-do-they-really-feel-psychic-love?click_key=2777ad8504a8cc01b6ca373cb40883bb87d121ec%3A1289941298&click_sum=75bf3c36&ref=shop_home_active_1&frs=1&crt=1">
-        <div class="smallBox pictureContainer">
+        <div class="smallBox pictureContainer" style="background-image: url('../thumbnails/thumbnail1.png');">
             <div class="link"> <u>How Do They Really Feel?</u></div>
         </div>
         </a>
@@ -61,7 +62,7 @@
 
         <!--listing3-->
         <a href="https://www.etsy.com/listing/1349644761/who-is-thinking-about-you-and-why?click_key=87c9d8d6d28a1967b3baa91eb54ddeda0fbfc833%3A1349644761&click_sum=805c9e9c&ref=shop_home_active_4&frs=1&crt=1">
-        <div class="smallBox pictureContainer" style="background-image: url('../thumbnails/thumbnail4.png');">
+        <div class="smallBox pictureContainer" style="background-image: url('../thumbnails/thumbnail2.png');">
             <div class="link"><u>Who is Thinking About You?</u></div>
         </div> 
         </a>
@@ -98,5 +99,6 @@
         </ul>
      </div>
     </div>
+    <script src="index.js"></script>
     </body>
 </html>

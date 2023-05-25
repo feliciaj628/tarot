@@ -77,7 +77,22 @@
     box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-
+.banner {
+    /* background-image: url("banner.png");*/
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Homemade Apple', cursive;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    background-color:rgb(216, 214, 232);
+}
 
 
 .banner.hidden {

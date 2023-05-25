@@ -1,5 +1,8 @@
 <html>
     <head>
+        <title>crystalwishtarot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta name="description" content="Providing guidance and clarity to the unknown. Reliable, accurate, and genuine tarot readings.">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Playfair+Display&display=swap" rel="stylesheet">
@@ -8,10 +11,11 @@
         <link rel="stylesheet" href="/styles/index.css">
         <link rel="stylesheet" href="/styles/FAQ.css">
         <link rel="stylesheet" href="/styles/youtube.css">
+        <link rel="stylesheet" href="/styles/shop.css">
     </head>
-        <body style="background-color: rgb(216, 214, 232); margin: 0;border-color: 20px;">
+        <body style= "margin: 0;border-color: 20px;">
             <div class="content">
-                <div class="navbar"><p id="navtitle">crystalwishtarot</p> 
+                <div class="navbar hidden"><p id="navtitle">crystalwishtarot</p> 
                     <!--<img src="/logo.png" alt="Logo" class="logo" alt="Logo">-->
                     <ul class="navtitles">
                         <li><a href="index.html">Home</a></li>
@@ -20,11 +24,13 @@
                         <li><a href="youtube.html">Youtube</a></li>
                         <li><a href="FAQ.html">FAQ</a></li>
                     </ul></div>
-                <div class="FAQtitle"><center>Shop</center></div>
-                    <div class="bigBox">
+                <div class="FAQtitle"><center>Current Listings</center></div>
+                    <button class="filter" id="all">All Listings</button>
+                    <button class="filter" id="sameday" style="margin-top: 85px;">Same Day</button>
+                    <div class="listings">
                         <a href="https://www.etsy.com/listing/1289941298/how-do-they-really-feel-psychic-love?click_key=2777ad8504a8cc01b6ca373cb40883bb87d121ec%3A1289941298&click_sum=75bf3c36&ref=shop_home_active_1&frs=1&crt=1">
-                            <div class="smallBox pictureContainer">
-                                <div class="link"> <u>How Do They Really Feel?</u></div>
+                            <div class="shopBox pictureContainer" style="background-image: url('../thumbnails/thumbnail1.png');">
+                                <div class="shoplink"> <u>How Do They Really Feel?</u></div>
                             </div>
                             </a>
 
@@ -38,14 +44,34 @@
                     
                             <!--listing3-->
                             <a href="https://www.etsy.com/listing/1349644761/who-is-thinking-about-you-and-why?click_key=87c9d8d6d28a1967b3baa91eb54ddeda0fbfc833%3A1349644761&click_sum=805c9e9c&ref=shop_home_active_4&frs=1&crt=1">
-                            <div class="smallBox pictureContainer" style="background-image: url('../thumbnails/thumbnail4.png');">
-                                <div class="link"><u>Who is Thinking About You?</u></div>
+                            <div class="shopBox pictureContainer" style="background-image: url('../thumbnails/thumbnail2.png');">
+                                <div class="shoplink"><u>Who is Thinking About You?</u></div>
                             </div> 
                             </a>
                     
                             <a href="https://www.etsy.com/listing/1385179211/no-contact-psychic-tarot-reading-do-they?click_key=9448c0d769768b6158df786cff321b061efbd080%3A1385179211&click_sum=c9042739&ref=shop_home_active_3&frs=1&crt=1">
-                                <div class="smallBox pictureContainer" style="background-image: url('../thumbnails/thumbnail3.png');">
-                                    <div class="link"><u> No Contact Reading</u></div>
+                                <div class="shopBox pictureContainer" style="background-image: url('../thumbnails/thumbnail3.png');">
+                                    <div class="shoplink"><u> No Contact Reading</u></div>
+                                </div> 
+                                </a>
+
+                            <a href="https://www.etsy.com/listing/1385179211/no-contact-psychic-tarot-reading-do-they?click_key=9448c0d769768b6158df786cff321b061efbd080%3A1385179211&click_sum=c9042739&ref=shop_home_active_3&frs=1&crt=1">
+                                <div class="shopBox pictureContainer" style="background-image: url('../thumbnails/thumbnail4.png');">
+                                    <div class="shoplink"><u> How Do They Really Feel?</u></div>
+                                </div> 
+                                </a> 
+                                
+                            <a href="https://www.etsy.com/listing/1385179211/no-contact-psychic-tarot-reading-do-they?click_key=9448c0d769768b6158df786cff321b061efbd080%3A1385179211&click_sum=c9042739&ref=shop_home_active_3&frs=1&crt=1">
+                                <div class="shopBox pictureContainer" style="background-image: url('../thumbnails/thumbnail5.png');">
+                                    <div class="shoplink"><u> Who is Thinking About You?</u></div>
+                                </div> 
+                                </a>
+
+                            <a href="https://www.etsy.com/listing/1385179211/no-contact-psychic-tarot-reading-do-they?click_key=9448c0d769768b6158df786cff321b061efbd080%3A1385179211&click_sum=c9042739&ref=shop_home_active_3&frs=1&crt=1">
+                                <div class="shopBox pictureContainer" style="background-image: url('../thumbnails/thumbnail6.png');">
+                                    <div class="shoplink"><u> No Contact Reading</u></div>
                                 </div> 
                                 </a>
                         </div>
+                        <script src="index.js"></script>
+                    </body>
