@@ -1,5 +1,4 @@
 .FAQbox {
-    background-color: white;
     padding-top: 20px;
     padding-bottom: 190px;
     font-size: 20px;
@@ -11,7 +10,7 @@
 .FAQfont {
     font-size: 25px;
     font-weight: inherit;
-    color: rgb(38, 38, 38);
+    color: rgb(39, 39, 39);
     line-height: 1.9;
     margin-left: 120px;
     margin-right: 420px;
@@ -25,9 +24,9 @@
 
 
 .FAQtitle {
-    color: #4e4a4a;
+    color: rgb(39, 39, 39);;
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 140px;
     margin-top: 175px;
     font-size: 70px;
     font-family: 'Cormorant Infant', serif;

@@ -92,7 +92,7 @@
     overflow: hidden;
     margin-bottom: 0px;
     border-bottom: 0px;
-    background-color:rgb(216, 214, 232);
+    background-color:rgb(214, 213, 229);
 }
 
 .banner.hidden {
@@ -106,9 +106,9 @@
     line-height: 55px;
     list-style-type: none;
     margin-bottom: 0;
-    margin-top: 0;
-    height: 450px;
-    font-size: 29px;
+    margin-top: 55px;
+    height: 420px;
+    font-size: 30px;
     font-weight: inherit;
     color: rgb(38, 38, 38);
 }
@@ -116,9 +116,9 @@
 .list-title {
     float: left;
     margin-left: 155px;
-    margin-top: 40px;
+    margin-top: 10px;
     font-weight: 600;
-    color: rgb(79, 53, 108);
+    color: rgb(78, 55, 125);
     font-family:  'Homemade Apple', cursive;
     line-height: 4;
 }
@@ -136,11 +136,11 @@
     align-items: center;
     text-align: center;
     color: rgb(0, 0, 0);
-    line-height: 2.7;
+    line-height: 2.9;
 }
 
 .list li {
-    margin-top: -90px;
+    margin-top: -110px;
     padding: 0;
     display: flex;
     z-index: 11;
@@ -148,9 +148,9 @@
 }
 
 .title {
-    background-color: rgb(223, 217, 217);
-    color: #4e4a4a;
-    border: 3px solid #c0bebe;
+    background-color: white;
+    color: #343434;
+    border: 3px solid rgb(115, 115, 115);
     padding: 10px;
     margin-top: 123px;
     font-size: 30px;
@@ -158,9 +158,8 @@
     font-weight: inherit
 }
 .bigbox {
-    background-color:rgb(255, 255, 255);
     color: black;
-    border: 3px solid #c0bebe;
+    border: 3px solid (115, 115, 115);
     padding: 10px;
     margin-bottom: 0px;
     display: flex;
@@ -175,7 +174,7 @@
     width: 370px;
     height: 300px;
     color: black;
-    border: 3px solid #c0bebe;
+    outline: 3px solid #c0bebe;
     padding: 0px;
     margin: 10px 10px 10px 0;
     display: inline-block;
@@ -201,7 +200,7 @@
 }
 
 .pictureContainer:hover {
-     outline: #9055a1 solid 4px;
+     outline: #8e719d solid 4px;
      opacity: 0.8;
     
     }
@@ -258,7 +257,7 @@
     }
 
 .contact{
-    padding: 10px 20px 20px 150px;
+    padding: 10px 20px 30px 159px;
     font-size: 25px;
     line-height: 1.9;
     font-family: 'Cormorant Infant', serif;
@@ -270,7 +269,7 @@
     z-index: 5;
     position: absolute;
     margin-left: 435px;
-    margin-top: 40px;
+    margin-top: 10px;
   }
   
   .shadowed-image {
@@ -281,15 +280,35 @@
   
   .star {
     color: rgb(251, 242, 174);
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px rgb(55, 55, 55);
   }
   .FAQtitle {
-    color: #4e4a4a;
+    color: rgb(39, 39, 39);
     padding: 10px;
-    margin-left: 145px;
+    margin-left: 150px;
     margin-top: 140px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Cormorant Infant', serif;
     font-weight: inherit;
     text-decoration: underline;
 }
+
+.partial-line {
+    width: 77.7%; /* Adjust the desired width */
+    margin-left: 11%; /* Adjust the left margin to center the line */
+    position: relative;
+    border: none;
+    background-color: #ababab; /* Adjust the color of the solid line */
+    height: 3px; /* Adjust the height of the line */
+    box-shadow: 0px 2px 3px rgb(146, 146, 147); /* Adjust the shadow properties */
+  }
+  
+  
+
+  .popularlistings {
+    /* border-bottom: 5px solid rgb(149, 146, 156);
+    border-top: 5px solid rgb(149, 146, 156);*/
+    padding: 10px 0px 20px 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45); /* Adjust the shadow properties */
+    transform: translateZ(10px);
+  }
