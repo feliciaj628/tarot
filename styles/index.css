@@ -274,7 +274,7 @@
   }
   
   .shadowed-image {
-    filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.9g));
+    filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.9));
     height: 350px;
     width: 998px;
   }
