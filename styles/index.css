@@ -10,7 +10,7 @@
     z-index: 30;
     display: flex; /* Added for flexbox */
     flex-direction: column;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cormorant Infant', serif;
     display: flex; /* Added for flexbox */
     text-align: center;
     align-items: center;
@@ -64,7 +64,7 @@
     text-decoration: none;
     color: inherit;
     transition: transform 0.2s ease;
-    padding: 8px 30px;
+    padding: 10px 30px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     font-size: 17px;
 }
@@ -115,7 +115,7 @@
 
 .list-title {
     float: left;
-    margin-left: 120px;
+    margin-left: 155px;
     margin-top: 40px;
     font-weight: 600;
     color: rgb(79, 53, 108);
@@ -130,7 +130,7 @@
 .list {
     margin-left: 390px;
     margin-top: 210px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cormorant Infant', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,9 +152,9 @@
     color: #4e4a4a;
     border: 3px solid #c0bebe;
     padding: 10px;
-    margin-top: 0;
+    margin-top: 123px;
     font-size: 30px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cormorant Infant', serif;
     font-weight: inherit
 }
 .bigbox {
@@ -180,6 +180,7 @@
     margin: 10px 10px 10px 0;
     display: inline-block;
     position: relative;
+    border-radius: 20px;
 
 }
 .link {
@@ -196,14 +197,13 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cormorant Infant', serif;
 }
-
-.pictureContainer:hover > .link { opacity: 0.9; }
 
 .pictureContainer:hover {
      outline: #9055a1 solid 4px;
      opacity: 0.8;
+    
     }
 .font {
     font-size: 29px;
@@ -258,23 +258,18 @@
     }
 
 .contact{
-    padding-left: 150px;
+    padding: 10px 20px 20px 150px;
     font-size: 25px;
     line-height: 1.9;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cormorant Infant', serif;
 }
   
-.FAQbox {
-    background-color: white;
-    margin: 100px;
-    padding: 0px;
-}
 
 .image-wrapper {
     display: flex;
     z-index: 5;
     position: absolute;
-    margin-left: 440px;
+    margin-left: 435px;
     margin-top: 40px;
   }
   
@@ -288,3 +283,13 @@
     color: rgb(251, 242, 174);
     -webkit-text-stroke: 2px black;
   }
+  .FAQtitle {
+    color: #4e4a4a;
+    padding: 10px;
+    margin-left: 145px;
+    margin-top: 140px;
+    font-size: 30px;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: inherit;
+    text-decoration: underline;
+}

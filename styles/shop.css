@@ -1,8 +1,8 @@
 .listings {
     padding: 120px;
-    padding-top: 40px;
-    padding-left: 300px;
-    padding-right: 180px;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 420px;
     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -17,13 +17,13 @@
     background-image: url("../thumbnails/thumbnail1.png");
     background-size: cover;
     background-position: top center;
-    width: 300px;
-    height: 240px;
+    width: 290px;
+    height: 250px;
     color: black;
     border: 3px solid #c0bebe;
     padding: 0px;
     margin: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 30px;
     display: inline-block;
     position: relative;
@@ -51,7 +51,7 @@
     background-attachment: fixed;
     opacity: 0;
     height: 29px;
-    width: 300px;
+    width: 290px;
     position: absolute;
     bottom: 0;
     font-weight: 80;
@@ -63,7 +63,6 @@
     border-radius: 20px;
 }
 
-.pictureContainer:hover > .shoplink { opacity: 0.9; }
 
 .pictureContainer:hover {
      outline: #9055a1 solid 4px;
@@ -74,7 +73,7 @@
     background-color: rgb(243, 243, 243);
     padding: 3px 10px;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 50px;
     font-size: 20px;
     font-family: 'EB Garamond', serif;

@@ -101,7 +101,7 @@
 .banner2 {
     background-color: white;
     padding: 10px;
-    padding-left: 0px;
+    padding-left: 10px;
     line-height: 1;
     list-style-type: none;
     margin-bottom: 0;
@@ -114,7 +114,7 @@
 
 .list-title {
     float: left;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 40px;
     font-weight: 600;
     color: rgb(79, 53, 108);
@@ -279,8 +279,8 @@
   
   .shadowed-image {
     filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.85));
-    height: 60px;
-    width: 200px;
+    height: 100px;
+    width: 220px;
   }
   
   .star {
