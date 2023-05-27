@@ -107,7 +107,7 @@
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 55px;
-    height: 420px;
+    height: 500px;
     font-size: 30px;
     font-weight: inherit;
     color: rgb(38, 38, 38);
@@ -309,7 +309,7 @@
   .popularlistings {
     /* border-bottom: 5px solid rgb(149, 146, 156);
     border-top: 5px solid rgb(149, 146, 156);*/
-    padding: 10px 0px 20px 0px;
+    padding-top: 4px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45); /* Adjust the shadow properties */
     transform: translateZ(10px);
     background-color: #efeef1

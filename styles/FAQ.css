@@ -13,7 +13,7 @@
     color: rgb(39, 39, 39);
     line-height: 1.9;
     margin-left: 120px;
-    margin-right: 420px;
+    margin-right: 500px;
     font-family: 'Cormorant Infant', serif;
 
 }
@@ -35,40 +35,40 @@
 }
 
 .crystal {
-    height: 280px;
+    height: 310px;
     position: absolute;
 }
 
 #crystal1 {
-    right: 130px;
-    top: 140px;
+    right: 100px;
+    top: 150px;
     transform: rotate(-45deg);
 }
 
 #crystal2 {
-    height: 220px;
-    right: 220px;
-    top: 360px;
+    height: 235px;
+    right: 250px;
+    top: 350px;
     transform: rotate(20deg);
 }
 
 #crystal3 {
-    height: 160px;
-    right: 120px;
+    height: 175px;
+    right: 110px;
     top: 420px;
     transform: rotate(-35deg);
 }
 
 #crystal4 {
-    height: 260px;
-    right: 180px;
-    top: 540px;
+    height: 290px;
+    right: 190px;
+    top: 525px;
     transform: rotate(45deg);
 }
 
 #crystal5 {
-    height: 170px;
-    right: 150px;
-    top: 710px;
-    transform: rotate(25deg);
+    height: 220px;
+    right: 125px;
+    top: 700px;
+    transform: rotate(20deg);
 }
