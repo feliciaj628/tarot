@@ -16,7 +16,7 @@
     background-image: url("../thumbnails/thumbnail1.png");
     background-size: cover;
     background-position: center;
-    width: 340px;
+    width: 335px;
     height: 270px;
     color: black;
     border: 3px solid #c0bebe;
@@ -32,7 +32,7 @@
 
 .description {
     font-size: 21px;
-    margin-top: 0px;
+    margin-top: 3px;
     margin-left: 23px;
     font-family: 'Cormorant Infant', serif;
 }
@@ -93,7 +93,7 @@
 }
 
 #listing-wrap {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: left;
     padding: 0;
 }
