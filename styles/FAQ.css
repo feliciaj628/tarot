@@ -10,7 +10,7 @@
 .FAQfont {
     font-size: 25px;
     font-weight: inherit;
-    color: rgb(39, 39, 39);
+    color: rgb(0, 0, 0);
     line-height: 1.9;
     margin-left: 120px;
     margin-right: 500px;
@@ -24,7 +24,7 @@
 
 
 .FAQtitle {
-    color: rgb(39, 39, 39);;
+    color: rgb(0, 0, 0);
     padding: 10px;
     margin-left: 140px;
     margin-top: 175px;

@@ -25,6 +25,8 @@
     font-family: 'Homemade Apple', cursive;
     align-items: center;
     text-align: center;
+    margin-left: -11px;
+    margin-right: 0px;
     margin-bottom: -8px;
     margin-top: 12px;
     display: flex;
@@ -312,5 +314,5 @@
     padding-top: 4px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45); /* Adjust the shadow properties */
     transform: translateZ(10px);
-    background-color: #efeef1
+    background-color: #efeef1;
   }
