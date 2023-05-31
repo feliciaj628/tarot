@@ -1,0 +1,78 @@
+.FAQbox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    margin-top: -20px;
+    background-color: #efeef1;
+}
+
+
+.FAQfont {
+    font-size: 18px;
+    font-weight: inherit;
+    color: rgb(0, 0, 0);
+    line-height: 1.9;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cormorant Infant', serif;
+
+}
+
+.FAQtitle {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: inherit;
+    text-decoration: underline;
+}
+
+.FAQbox ul li{
+    margin-bottom: 25px;
+}
+
+.crystal {
+    position: absolute;
+}
+
+#crystal1 {
+    height: 301px;
+    right: 100px;
+    top: 150px;
+    transform: rotate(-45deg);
+}
+
+#crystal2 {
+    height: 235px;
+    right: 250px;
+    top: 350px;
+    transform: rotate(20deg);
+}
+
+#crystal3 {
+    height: 175px;
+    right: 110px;
+    top: 420px;
+    transform: rotate(-35deg);
+}
+
+#crystal4 {
+    height: 290px;
+    right: 190px;
+    top: 525px;
+    transform: rotate(45deg);
+}
+
+#crystal5 {
+    height: 220px;
+    right: 125px;
+    top: 700px;
+    transform: rotate(20deg);
+}
+
+#crystal-wrapper {
+    display: none;
+}
