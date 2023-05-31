@@ -40,8 +40,8 @@
 
 .navbar ul li {
     display: inline-block;/* Adjust the margin-right value to decrease the spacing */
-    margin-right: 84px;
-    margin-left: 84px;
+    margin-right: 6vw;
+    margin-left: 6vw;
 }
 
 .logo-container {
@@ -139,8 +139,8 @@
 }
 
 .list {
-    margin-left: 390px;
-    margin-top: 210px;
+    margin-top: 100px;
+    margin-left: -30px;
     font-family: 'Cormorant Infant', serif;
     display: flex;
     flex-direction: column;
@@ -149,6 +149,7 @@
     color: rgb(50, 50, 50);
     line-height: 2.9;
     font-weight: 600;
+    position: absolute;
 }
 
 .list li {
@@ -156,7 +157,7 @@
     padding: 0;
     display: flex;
     z-index: 11;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .title {
@@ -282,6 +283,9 @@
     position: absolute;
     margin-left: 435px;
     margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   
   .shadowed-image {
