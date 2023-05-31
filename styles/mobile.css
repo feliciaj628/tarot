@@ -110,16 +110,21 @@
     font-size: 15px;
     font-weight: inherit;
     color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .list-title {
-    float: left;
     margin-left: 0px;
     margin-top: 40px;
     font-weight: 600;
     color: rgb(79, 53, 108);
     font-family:  'Homemade Apple', cursive;
     line-height: 4;
+    display: flex;
+    flex-direction: column;
 }
 
 .list-title li {
@@ -127,8 +132,6 @@
 }
 
 .list {
-    margin-left: 10px;
-    margin-top: -30px;
     font-family: 'EB Garamond', serif;
     display: flex;
     flex-direction: column;
@@ -146,20 +149,18 @@
 }
 
 .title {
-    background-color: rgb(223, 217, 217);
-    color: #4e4a4a;
-    border: 3px solid #c0bebe;
+    color: rgb(0, 0, 0);
     padding: 10px;
-    margin-top: 0;
+    margin-top: 0px;
     font-size: 30px;
-
-    font-family: 'EB Garamond', serif;
+    font-family: 'Cormorant Infant', serif;
     font-weight: inherit;
+    text-decoration: underline;
+    text-align: center;
 }
 .bigbox {
-    background-color:rgb(255, 255, 255);
     color: black;
-    border: 3px solid #c0bebe;
+    border: 3px solid (115, 115, 115);
     padding: 10px;
     margin-bottom: 0px;
     display: flex;
@@ -258,7 +259,7 @@
 
 .contact{
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 1.9;
     font-family: 'EB Garamond', serif;
 }
@@ -273,12 +274,13 @@
     display: flex;
     z-index: 5;
     position: absolute;
-    margin-left: 140px;
-    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    margin-top: 240px;
   }
   
   .shadowed-image {
-    filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.85));
+    filter: drop-shadow(0 0 4px rgba(14, 11, 20, 0.85));
     height: 100px;
     width: 220px;
   }
@@ -286,4 +288,13 @@
   .star {
     color: rgb(251, 242, 174);
     -webkit-text-stroke: 2px black;
+  }
+
+  .popularlistings {
+    /* border-bottom: 5px solid rgb(149, 146, 156);
+    border-top: 5px solid rgb(149, 146, 156);*/
+    padding-top: 4px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45); /* Adjust the shadow properties */
+    transform: translateZ(10px);
+    background-color: #efeef1;
   }
