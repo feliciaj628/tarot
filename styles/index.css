@@ -111,14 +111,13 @@
   }
 
 .banner2 {
-    background-color: white;
     padding: 50px;
     padding-left: 0px;
     line-height: 55px;
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 55px;
-    height: 500px;
+    height: 480px;
     font-size: 30px;
     font-weight: inherit;
     color: rgb(38, 38, 38);
@@ -344,3 +343,6 @@
   }
   
   
+    #contact-title {
+    margin-top: 40px;
+  }
