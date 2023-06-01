@@ -34,7 +34,7 @@
 
 .navbar ul li {
     display: inline-block;/* Adjust the margin-right value to decrease the spacing */
-    margin-left: 0px;
+    margin-left: -10px;
 }
 
 .logo {
@@ -118,7 +118,7 @@
 
 .list-title {
     margin-left: 0px;
-    margin-top: 40px;
+    margin-top: 230px;
     font-weight: 600;
     color: rgb(79, 53, 108);
     font-family:  'Homemade Apple', cursive;
@@ -280,7 +280,7 @@
     position: relative;
     text-align: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: -450px;
   }
   #cloud {
     z-index: 4;
@@ -305,4 +305,8 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45); /* Adjust the shadow properties */
     transform: translateZ(10px);
     background-color: #efeef1;
+  }
+
+  #contact-title {
+    margin-top: 20px;
   }
