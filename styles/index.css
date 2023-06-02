@@ -90,47 +90,44 @@
 
 
 .banner {
-    /* background-image: url("banner.png");*/
+    /* background-image: url("banner.png"); */
     background-position: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 110px;
-    padding-top: 110px;
+    padding: 80px 150px 80px 150px;
     font-size: 65px;
     font-family: 'Homemade Apple', cursive;
-    display: flex;
-    justify-content: center;
     overflow: hidden;
     margin-bottom: 0px;
     border-bottom: 0px;
-    background-color:rgb(218, 215, 229);
+    background-color: none;
 }
 
 .banner.hidden {
     display: none; /* Hide the banner when it has the hidden class */
-  }
+}
 
 .banner2 {
     padding: 50px;
     padding-left: 0px;
     line-height: 55px;
+    margin-left: -150px;
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 55px;
-    height: 450px;
+    height: 250px;
     font-size: 30px;
     font-weight: inherit;
     color: rgb(38, 38, 38);
 }
 
+
 .list-title {
     float: left;
     margin-left: 155px;
-    margin-top: 10px;
-    font-weight: 600;
-    color: rgb(81, 66, 124);
+    margin-top: -80px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
     font-family:  'Homemade Apple', cursive;
-    line-height: 4;
+    line-height: 3.7;
 }
 
 .list-title li {
@@ -138,8 +135,8 @@
 }
 
 .list {
-    margin-top: 30px;
-    margin-left: -30px;
+    margin-top: 0px;
+    margin-left: -60px;
     font-family: 'Cormorant Infant', serif;
     display: flex;
     flex-direction: column;
@@ -152,7 +149,7 @@
 }
 
 .list li {
-    margin-top: -30px;
+    margin-top: -20px;
     padding: 0;
     display: flex;
     z-index: 11;
@@ -184,8 +181,8 @@
     background-image: url("../thumbnails/thumbnail1.png");
     background-size: cover;
     background-position: top center;
-    width: 370px;
-    height: 300px;
+    width: 26vw;
+    height: 20vw;
     color: black;
     outline: 3px solid #c0bebe;
     padding: 0px;
@@ -250,11 +247,13 @@
     position: relative;
   }
   
-  .star-border::before, 
+  .star-border::before,
   .star-border::after {
     position: absolute;
+    text-align: left;
+    margin-left: -150px;
     content: "★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ";
-    color: rgb(255, 255, 255);
+    color: rgb(71, 56, 71);
     font-size: 12px;
     line-height: 1;
     overflow-wrap: normal;
@@ -270,10 +269,13 @@
     }
 
 .contact{
-    padding: 10px 20px 30px 159px;
-    font-size: 25px;
+    padding: 0px 20px 30px 150px;
+    position: absolute;
+    left: 27vw;
+    font-size: 1.7vw;
     line-height: 1.9;
     font-family: 'Cormorant Infant', serif;
+    padding-right: 30px;
 }
   
 
@@ -281,8 +283,8 @@
     display: flex;
     z-index: 5;
     position: absolute;
-    margin-left: 400px;
-    margin-top: -20px;
+    margin-left: 390px;
+    margin-top: -120px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -324,11 +326,11 @@
   .popularlistings {
     /* border-bottom: 5px solid rgb(149, 146, 156);
     border-top: 5px solid rgb(149, 146, 156);*/
+    margin-top: -20px;
     padding-top: 4px;
-    padding-left: 0px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45); /* Adjust the shadow properties */
     transform: translateZ(10px);
-    background-color: #efeef1;
+    background-color: #ffffff;
   }
 
   .vertical-line {
@@ -345,4 +347,24 @@
   
     #contact-title {
     margin-top: 40px;
+    font-size: 4.5vw;
+    text-decoration: none;
+    left: -30px;
+    padding: 0px;
+    position: absolute;
+    padding: 0px;
+  }
+
+  #banner2 {
+    background-color: #e8e2e8;
+    color: #3c354a;
+    font-size: 50px;
+  }
+
+  #banner1 {
+    background-image: url(../banner5.png);
+    height: 500px;
+    padding: 0px;
+    background-position: center;
+    background-size: cover;
   }
