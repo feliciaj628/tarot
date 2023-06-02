@@ -318,7 +318,9 @@
     text-decoration: none;
     margin-right: 0px;
     padding: 0px;
-    text-align: center;
+    text-align: center !important;
+    line-height: 1;
+    display: block;
   }
 
   #banner {
@@ -328,8 +330,8 @@
   }
 
   #banner1 {
-    background-image: url(../banner5.png);
-    height: 190px;
+    max-width: 100%;
+    height: auto;
     padding: 0px;
     background-position: center;
     background-size: cover;

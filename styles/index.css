@@ -353,6 +353,9 @@
     padding: 0px;
     position: absolute;
     padding: 0px;
+    line-height: 1;
+    margin-left: 175px;
+    margin-right: 100px;
   }
 
   #banner2 {
@@ -362,8 +365,8 @@
   }
 
   #banner1 {
-    background-image: url(../banner5.png);
-    height: 500px;
+    max-width: 100%;
+    height: auto;
     padding: 0px;
     background-position: center;
     background-size: cover;
