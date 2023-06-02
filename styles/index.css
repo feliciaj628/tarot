@@ -282,7 +282,7 @@
     z-index: 5;
     position: absolute;
     margin-left: 435px;
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -290,8 +290,8 @@
   
   .shadowed-image {
     filter: drop-shadow(0 0 9px rgba(14, 11, 20, 0.9));
-    height: 350px;
-    width: 998px;
+    height: 400px;
+    width: 1008px;
   }
   
   .star {
