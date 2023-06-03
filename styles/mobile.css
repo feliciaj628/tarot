@@ -321,6 +321,7 @@
     text-align: center !important;
     line-height: 1;
     display: block;
+    color: rgb(38, 38, 38);
   }
 
   #banner {
@@ -336,3 +337,8 @@
     background-position: center;
     background-size: cover;
   }
+
+  
+  a {
+    color: rgb(38, 38, 38);
+}
