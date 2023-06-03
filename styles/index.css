@@ -270,7 +270,7 @@
     }
 
 .contact{
-    padding: 0px 20px 30px 150px;
+    padding: 15px 20px 50px 150px;
     position: absolute;
     left: 27vw;
     font-size: 1.7vw;
@@ -349,7 +349,7 @@
   
   
     #contact-title {
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 4.5vw;
     text-decoration: none;
     left: -20px;
