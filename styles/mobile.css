@@ -167,7 +167,7 @@
 .bigbox {
     color: black;
     border: 3px solid (115, 115, 115);
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -264,8 +264,8 @@
     }
 
 .contact{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     font-size: 2.9vw;
     line-height: 1.9;
@@ -314,7 +314,7 @@
   #contact-title {
     margin-top: 20px;
     margin-bottom: -20px;
-    font-size: 40px;
+    font-size: 6vw;
     text-decoration: none;
     margin-right: 0px;
     padding: 0px;
