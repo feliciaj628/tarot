@@ -167,12 +167,11 @@
 .bigbox {
     color: black;
     border: 3px solid (115, 115, 115);
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 20px;
 }
 .smallBox {
     background-color:rgb(255, 255, 255);
@@ -317,7 +316,6 @@
     margin-bottom: -20px;
     font-size: 40px;
     text-decoration: none;
-    margin-left: -20px;
     margin-right: 0px;
     padding: 0px;
     text-align: center !important;
