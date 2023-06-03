@@ -264,10 +264,10 @@
     }
 
 .contact{
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 30px;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 2.9vw;
     line-height: 1.9;
     font-family: 'EB Garamond', serif;
 }
@@ -340,5 +340,5 @@
 
   
   a {
-    color: rgb(84, 40, 139);
+    color: rgb(74, 0, 164);
 }
