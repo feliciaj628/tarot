@@ -337,6 +337,9 @@
     background-position: center;
     background-size: cover;
   }
+  #banner2 {
+    background-color: #E3DEE7;
+  }
 
   
   a {
