@@ -33,6 +33,15 @@
     margin-bottom: 25px;
 }
 
+.Q {
+    font-weight: bold;
+}
+
+.A {
+    line-height: 1;
+}
+
+
 .crystal {
     height: 310px;
     position: absolute;
