@@ -108,7 +108,7 @@
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 0;
-    height: 440px;
+    height: 360px;
     font-size: 20px;
     font-weight: inherit;
     color: rgb(38, 38, 38);
@@ -119,8 +119,8 @@
 }
 
 .list-title {
-    margin-left: 0px;
-    margin-top: 210px;
+    margin-left: 200px;
+    margin-top: 150px;
     font-weight: 600;
     color: rgb(79, 53, 108);
     font-family:  'Homemade Apple', cursive;
@@ -138,12 +138,12 @@
     display: flex;
     flex-direction: column;
     color: rgb(0, 0, 0);
-    line-height: 0.8;
+    line-height: 0.6;
     align-items: center;
     text-align: center;
     position: absolute;
     z-index: 9;
-    margin-left: 40px;
+    margin-left: 11px;
 }
 
 .list li {
@@ -151,7 +151,7 @@
     padding: 0;
     display: flex;
     z-index: 11;
-    font-size: 11px;
+    font-size: 8.6px;
 }
 
 .title {
@@ -282,9 +282,10 @@
     display: flex;
     z-index: 5;
     position: relative;
+    margin-left: -190px;
+    margin-top: -310px;
     text-align: center;
     align-items: center;
-    margin-top: -370px;
   }
   #cloud {
     z-index: 4;
@@ -293,8 +294,8 @@
   
   .shadowed-image {
     filter: drop-shadow(0 0 4px rgba(14, 11, 20, 0.85));
-    height: 180px;
-    width: 490px;
+    height: 150px;
+    width: 370px;
   }
   
   .star {
